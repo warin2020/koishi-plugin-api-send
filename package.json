@@ -17,10 +17,10 @@
     "koishi",
     "plugin"
   ],
-  "homepage": "https://github.com/alice/koishi-plugin-api-send.git",
+  "homepage": "https://github.com/warin2020/koishi-plugin-api-send.git",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alice/koishi-plugin-api-send.git"
+    "url": "git+https://github.com/warin2020/koishi-plugin-api-send.git"
   },
   "peerDependencies": {
     "koishi": "^4.18.7"
