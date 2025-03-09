@@ -1,22 +1,39 @@
 {
   "name": "koishi-plugin-api-send",
-  "description": "",
-  "version": "0.0.1",
+  "description": "通过api调用发送消息（自用）",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "contributors": [
+    "warin <zhuboyuan2020@gmail.com>"
+  ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.7"
+  },
+  "devDependencies": {
+    "@koishijs/plugin-server": "^3.2.4"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0"
+  },
+  "koishi": {
+    "description": {
+      "zh": "通过api调用发送消息（自用）"
+    },
+    "service": {
+      "required": [
+        "server"
+      ]
+    }
   }
 }
