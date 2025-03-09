@@ -1,5 +1,5 @@
 {
-  "name": "koishi-plugin-api-send",
+  "name": "@warin2025/koishi-plugin-api-send",
   "description": "通过api调用发送消息（自用）",
   "version": "1.0.0",
   "main": "lib/index.js",
